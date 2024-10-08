@@ -5,6 +5,7 @@ import Landing from './components/Landing'
 import About from "./components/About"
 import Services from './components/Services';
 import ContactForm from './components/ContactForm';
+import Footer from "./components/Footer"
 function App() {
   return (
     <Router>
@@ -15,7 +16,7 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path='/contact' element={<ContactForm />} />
         </Routes>
-      
+      <Footer />
     </Router>
   )
 }

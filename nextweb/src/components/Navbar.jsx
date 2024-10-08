@@ -30,10 +30,10 @@ export default function Navbar() {
             </svg>
           </button>
           <div className="hidden md:flex space-x-4">
-            <Link to="/"><a href="#" className="text-black">Home</a></Link>
-            <Link to="/about"><a href="#" className="text-black">Sobre</a></Link>
-            <Link to="services"><a href="#" className="text-black">Serviços</a></Link>
-            <Link to="contact"><a href="#" className="text-black">Contato</a></Link>
+            <Link to="/"><p href="#" className="text-black">Home</p></Link>
+            <Link to="/about"><p href="#" className="text-black">Sobre</p></Link>
+            <Link to="services"><p href="#" className="text-black">Serviços</p></Link>
+            <Link to="contact"><p href="#" className="text-black">Contato</p></Link>
           </div>
         </div>
       </nav>
@@ -42,10 +42,10 @@ export default function Navbar() {
           toggle ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         } overflow-hidden md:hidden`}
       >
-        <a href="#" className="block py-2 px-4 text-white">Home</a>
-        <a href="#" className="block py-2 px-4 text-white">About</a>
-        <a href="#" className="block py-2 px-4 text-white">Services</a>
-        <a href="#" className="block py-2 px-4 text-white">Contact</a>
+        <p href="#" className="block py-2 px-4 text-white">Home</p>
+        <p href="#" className="block py-2 px-4 text-white">About</p>
+        <p href="#" className="block py-2 px-4 text-white">Services</p>
+        <p href="#" className="block py-2 px-4 text-white">Contact</p>
       </div>
     </div>
   );
