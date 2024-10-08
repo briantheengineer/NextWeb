@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -9,9 +10,9 @@ export default function Navbar() {
 
   return (
     <div className="relative">
-      <nav className="px-20 border p-4">
+      <nav className="md:px-20 border p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-black text-lg font-bold">My Website</div>
+        <Link to="/"><div className="text-black text-lg font-bold">My Website</div></Link>
           <button onClick={changeToggle} className="text-black block md:hidden">
             <svg
               className="w-6 h-6"
@@ -29,10 +30,10 @@ export default function Navbar() {
             </svg>
           </button>
           <div className="hidden md:flex space-x-4">
-            <a href="#" className="text-black">Home</a>
-            <a href="#" className="text-black">About</a>
-            <a href="#" className="text-black">Services</a>
-            <a href="#" className="text-black">Contact</a>
+            <Link to="/"><a href="#" className="text-black">Home</a></Link>
+            <Link to="/about"><a href="#" className="text-black">Sobre</a></Link>
+            <Link to="services"><a href="#" className="text-black">Serviços</a></Link>
+            <Link to="contact"><a href="#" className="text-black">Contato</a></Link>
           </div>
         </div>
       </nav>
