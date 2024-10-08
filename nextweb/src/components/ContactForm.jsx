@@ -19,24 +19,21 @@ export default function ContactForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Dados do EmailJS
     const serviceID = 'service_u2ivw7f';
     const templateID = 'template_evsljg7';
     const userID = 'ClXoiuDGksb4nh5yu';
 
-    // Parâmetros do template
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
       message: formData.message
     };
 
-    // Enviar o e-mail
     emailjs.send(serviceID, templateID, templateParams, userID)
       .then(response => {
         console.log('E-mail enviado com sucesso!', response.status, response.text);
         setIsSubmitted(true);
-        setFormData({ name: "", email: "", message: "" });  // Limpar o formulário após o envio
+        setFormData({ name: "", email: "", message: "" }); 
       })
       .catch(err => {
         console.error('Erro ao enviar e-mail:', err);

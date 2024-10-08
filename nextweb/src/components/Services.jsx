@@ -7,7 +7,6 @@ export default function Services() {
             Oferecemos uma gama completa de serviços para criar, otimizar e manter seu site funcionando perfeitamente. Aqui estão algumas de nossas principais ofertas:
           </p>
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Serviço 1 */}
             <div className="p-6 bg-white shadow-md rounded-lg">
               <h4 className="text-xl font-semibold mb-4">Criação de Sites</h4>
               <p className="text-gray-700 mb-6">
@@ -17,8 +16,7 @@ export default function Services() {
                 Saiba Mais
               </button>
             </div>
-  
-            {/* Serviço 2 */}
+
             <div className="p-6 bg-white shadow-md rounded-lg">
               <h4 className="text-xl font-semibold mb-4">Otimização SEO</h4>
               <p className="text-gray-700 mb-6">
@@ -29,7 +27,6 @@ export default function Services() {
               </button>
             </div>
   
-            {/* Serviço 3 */}
             <div className="p-6 bg-white shadow-md rounded-lg">
               <h4 className="text-xl font-semibold mb-4">Manutenção e Suporte</h4>
               <p className="text-gray-700 mb-6">

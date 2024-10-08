@@ -6,7 +6,6 @@ export default function Landing() {
 
   return (
     <div className="font-sans">
-      {/* Hero Section */} 
       <header className="bg-gray-900 text-white text-center py-20 flex flex-col md:flex-row justify-center items-center">
         <div className="w-full md:w-1/2 max-w-lg mx-auto">
           <h2 className="text-4xl font-bold mb-4">
@@ -45,8 +44,6 @@ export default function Landing() {
             </svg>
           </div>
         </header>
-
-      {/* Services Section */}
       <section className="bg-gray-100 text-gray-800 py-20">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Nossos Serviços</h2>
@@ -81,8 +78,6 @@ export default function Landing() {
           </div>
         </div>
       </section>
-      
-      {/* Footer */}
       <footer className="bg-gray-900 text-white py-8">
         <div className="container mx-auto text-center">
           <p>&copy; 2024 NextWeb. Todos os direitos reservados.</p>

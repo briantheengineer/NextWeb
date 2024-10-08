@@ -2,7 +2,6 @@ export default function About() {
     return (
       <section className="py-16 bg-white">
         <div className="container mx-auto flex flex-col md:flex-row items-center">
-          {/* Image */}
           <div className="md:w-1/2">
             <img 
               src="https://via.placeholder.com/500" 
