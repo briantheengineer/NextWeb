@@ -8,7 +8,7 @@ export default function Landing() {
     <div className="font-sans">
   <header className="bg-gray-900 text-white text-center py-20 flex justify-center items-center content-center">
     <div className="flex flex-col lg:flex-row lg:justify-center sm:items-center sm:justify-center lg:items-center p-5">
-      <div className="w-full lg:w-1/2 text-center">
+      <div className="w-full lg:w-1/2 text-center lg:px-14">
         <h2 className="text-4xl font-bold mb-4">
           Criação de Sites Profissionais para o Seu Negócio
         </h2>
@@ -171,6 +171,9 @@ export default function Landing() {
     <h2 className="text-4xl font-bold text-gray-900 mb-6">
       Serviços que garantem resultados
     </h2>
+    <p className="text-xl text-gray-800 font-semibold">
+      Estamos aqui para ajudar você a alcançar seus objetivos.
+    </p>
     <p className="text-lg text-gray-700 mb-4">
       Soluções personalizadas para o crescimento da sua marca:
     </p>
@@ -179,9 +182,7 @@ export default function Landing() {
       <li>Design moderno e funcional</li>
       <li>Suporte contínuo e consultoria especializada</li>
     </ul>
-    <p className="text-xl text-gray-800 font-semibold">
-      Estamos aqui para ajudar você a alcançar seus objetivos.
-    </p>
+    
   </div>
       <div className="w-1/2 md:order-last border">
       <svg className="h-full w-full sm:max-h-56" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 678.62 510.81641">

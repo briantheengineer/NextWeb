@@ -32,7 +32,7 @@ export default function Navbar() {
           <div className="hidden md:flex space-x-4">
             <Link to="/"><p href="#" className="text-black">Home</p></Link>
             <Link to="/about"><p href="#" className="text-black">Sobre</p></Link>
-            <Link to="services"><p href="#" className="text-black">Serviços</p></Link>
+            <p href="#" className="text-black">Blog</p>
             <Link to="contact"><p href="#" className="text-black">Contato</p></Link>
           </div>
         </div>
