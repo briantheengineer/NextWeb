@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className="relative">
       <nav className="md:px-20 border p-4">
         <div className="container mx-auto flex justify-between items-center">
-        <Link to="/"><div className="text-black text-lg font-bold">My Website</div></Link>
+        <Link to="/"><div className="text-black text-lg font-bold robot">NextWeb</div></Link>
           <button onClick={changeToggle} className="text-black block md:hidden">
             <svg
               className="w-6 h-6"
@@ -29,7 +29,7 @@ export default function Navbar() {
               ></path>
             </svg>
           </button>
-          <div className="hidden md:flex space-x-4">
+          <div className="hidden md:flex space-x-4 robot font-medium">
             <Link to="/"><p href="#" className="text-black">Home</p></Link>
             <Link to="/about"><p href="#" className="text-black">Sobre</p></Link>
             <p href="#" className="text-black">Blog</p>
